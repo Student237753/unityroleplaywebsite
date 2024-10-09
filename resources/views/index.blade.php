@@ -84,6 +84,12 @@
             overflow: hidden;
         }
 
+        /* Flex container for side-by-side layout */
+        .flex-container {
+            display: flex; /* Enable flexbox */
+            gap: 20px; /* Space between the boxes */
+        }
+
         .join-button {
             margin-top: 2%;
             padding: 17px 40px;
@@ -128,15 +134,15 @@
 <!-- Main Content -->
 <main class="flex items-center justify-center flex-grow">
     <div class="relative w-full h-full">
-        <div class="content-container">
-            <div class="bg-white shadow-md rounded-lg p-10 text-center text-black">
+        <div class="content-container flex-container"> <!-- Flexbox wrapper -->
+            <div class="bg-white shadow-md rounded-lg p-10 text-center text-black flex-1">
                 <h1 class="text-3xl font-bold mb-4">Welkom bij Unity Roleplay!</h1>
                 <p class="font-bold">We zijn verheugd je te verwelkomen in onze unieke stad! Bij Unity Roleplay streven we ernaar om een meeslepende en levendige ervaring te bieden waar spelers zich vrij kunnen uiten en hun eigen avonturen kunnen beleven.</p>
                 <p class="mt-4 font-bold">Sluit je aan bij een hechte community, ontdek spannende klussen, en beleef onvergetelijke momenten. We zijn blij je hier te hebben en kunnen niet wachten om samen met jou een geweldige tijd te beleven!</p>
             </div>
 
             <!-- Instructies om mee te doen -->
-            <div class="bg-white shadow-md rounded-lg p-10 text-center text-black mt-10">
+            <div class="bg-white shadow-md rounded-lg p-10 text-center text-black flex-1">
                 <h2 class="text-2xl font-bold mb-4">Hoe kan ik meedoen?</h2>
                 <ol class="text-left mb-4">
                     <li>1. Zorg dat je <strong>GTA V</strong> op je computer geïnstalleerd hebt.</li>
