@@ -9,7 +9,7 @@
     <style>
         /* Custom Gradient Animation for the entire page */
         .gradient-background {
-            background: linear-gradient(334deg, #6b97f7, #7525e2, #f7137e);
+            background: linear-gradient(334deg, #e8acbc, #a486ce, #5c9cc8);
             background-size: 180% 180%;
             animation: gradient-animation 6s ease infinite;
             min-height: 100vh; /* Ensures gradient covers the full height */
@@ -96,18 +96,18 @@
             border-radius: 50px;
             cursor: pointer;
             background-color: transparent;
-            color: #7525e2; /* Set text color to purple */
+            color: #a486ce; /* Set text color to purple */
             box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
             letter-spacing: 1.5px;
             text-transform: uppercase;
             font-size: 15px;
             font-weight: bold;
-            border: 2px solid #7525e2; /* Set border width and color */
+            border: 2px solid #a486ce; /* Set border width and color */
             transition: all 0.5s ease;
         }
 
         .join-button:hover {
-            background-color: hsl(261deg 80% 48%);
+            background-color: #a486ce;
             color: hsl(0, 0%, 100%); /* Change text color to white on hover */
         }
 
@@ -136,9 +136,14 @@
     <div class="relative w-full h-full">
         <div class="content-container flex-container"> <!-- Flexbox wrapper -->
             <div class="bg-white shadow-md rounded-lg p-10 text-center text-black flex-1">
-                <h1 class="text-3xl font-bold mb-4">Welkom bij Unity Roleplay!</h1>
-                <p class="font-bold">We zijn verheugd je te verwelkomen in onze unieke stad! Bij Unity Roleplay streven we ernaar om een meeslepende en levendige ervaring te bieden waar spelers zich vrij kunnen uiten en hun eigen avonturen kunnen beleven.</p>
-                <p class="mt-4 font-bold">Sluit je aan bij een hechte community, ontdek spannende klussen, en beleef onvergetelijke momenten. We zijn blij je hier te hebben en kunnen niet wachten om samen met jou een geweldige tijd te beleven!</p>
+                    <h1 class="text-3xl font-bold mb-4 text-black">Welkom bij Unity Roleplay!</h1>
+                    <p class="mb-6 text-black">We zijn blij je te verwelkomen in onze unieke stad, waar jouw creativiteit en avonturen centraal staan. Of je nu een gewone burger wilt zijn, een grote crimineel wilt worden, of een wetshandhaver die de orde handhaaft, de keuze is aan jou. Unity Roleplay biedt talloze mogelijkheden en spannende avonturen.</p>
+
+                    <p class="mb-6 text-black">Bij Unity Roleplay ben je nooit alleen. Neem deel aan evenementen, werk samen aan uitdagende avonturen en maak nieuwe vrienden terwijl je de stad verkent.</p>
+
+                    <p class="mb-6 text-black">Er is altijd iets te doen! Of je nu houdt van actie of strategische uitdagingen, spannende klussen wachten op je! Elke beslissing die je maakt kan leiden tot nieuwe verhalen en onvergetelijke momenten, van adembenemende achtervolgingen tot diepgaande interacties met andere burgers.</p>
+
+                    <p class="mb-6 text-black">We zijn blij je hier te hebben en kunnen niet wachten om samen met jou een geweldige tijd te beleven! Stap in de wereld van Unity Roleplay en laat je avonturen beginnen!</p>
             </div>
 
             <!-- Instructies om mee te doen -->

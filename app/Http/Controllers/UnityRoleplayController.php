@@ -14,9 +14,9 @@ class UnityRoleplayController extends Controller
     {
         return view('contact'); // Return the contact view
     }
-    public function apv()
+    public function regels()
     {
-        return view('apv'); // Return the APV view
+        return view('regels'); // Return the APV view
     }
 
 }

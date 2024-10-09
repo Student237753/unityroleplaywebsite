@@ -13,7 +13,7 @@
             <!-- Navigation Links (Right-Aligned) -->
             <div class="flex flex-wrap space-x-4 mt-3 md:mt-0"> <!-- Added flex-wrap and margin for small screens -->
                 <a href="{{ route('index') }}" class="header-button">Home</a>
-                <a href="{{ route('apv') }}" class="header-button">APV</a>
+                <a href="{{ route('regels') }}" class="header-button">Server Regels</a>
                 <a href="{{ route('contact') }}" class="header-button">Contact</a>
                 <a href="#" class="header-button">Doneren</a>
                 <a href="#" class="header-button">Over Ons</a>
