@@ -12,7 +12,11 @@ class UnityRoleplayController extends Controller
     }
     public function contact()
     {
-        return view('contact'); // Ensure this view exists in your resources/views directory
+        return view('contact'); // Return the contact view
+    }
+    public function apv()
+    {
+        return view('apv'); // Return the APV view
     }
 
 }

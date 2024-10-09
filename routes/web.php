@@ -13,3 +13,4 @@ Route::get('/UnityRoleplay/privacybeleid', function () {
     return view('privacybeleid');
 });
 Route::get('/contact', [UnityRoleplayController::class, 'contact'])->name('contact');
+Route::get('/apv', [UnityRoleplayController::class, 'apv'])->name('apv');
