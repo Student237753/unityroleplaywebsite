@@ -115,6 +115,17 @@
             transform: translateY(10px);
             transition: 100ms;
         }
+
+        /* Media query for screens 588px or lower */
+        @media (max-width: 588px) {
+            .flex-container {
+                flex-direction: column; /* Stack the divs vertically */
+            }
+
+            .flex-container > div {
+                margin-bottom: 20px; /* Add some spacing between the stacked divs */
+            }
+        }
     </style>
 </head>
 <body class="gradient-background text-white flex flex-col min-h-screen">
@@ -136,14 +147,11 @@
     <div class="relative w-full h-full">
         <div class="content-container flex-container"> <!-- Flexbox wrapper -->
             <div class="bg-white shadow-md rounded-lg p-10 text-center text-black flex-1">
-                    <h1 class="text-3xl font-bold mb-4 text-black">Welkom bij Unity Roleplay!</h1>
-                    <p class="mb-6 text-black">We zijn blij je te verwelkomen in onze unieke stad, waar jouw creativiteit en avonturen centraal staan. Of je nu een gewone burger wilt zijn, een grote crimineel wilt worden, of een wetshandhaver die de orde handhaaft, de keuze is aan jou. Unity Roleplay biedt talloze mogelijkheden en spannende avonturen.</p>
-
-                    <p class="mb-6 text-black">Bij Unity Roleplay ben je nooit alleen. Neem deel aan evenementen, werk samen aan uitdagende avonturen en maak nieuwe vrienden terwijl je de stad verkent.</p>
-
-                    <p class="mb-6 text-black">Er is altijd iets te doen! Of je nu houdt van actie of strategische uitdagingen, spannende klussen wachten op je! Elke beslissing die je maakt kan leiden tot nieuwe verhalen en onvergetelijke momenten, van adembenemende achtervolgingen tot diepgaande interacties met andere burgers.</p>
-
-                    <p class="mb-6 text-black">We zijn blij je hier te hebben en kunnen niet wachten om samen met jou een geweldige tijd te beleven! Stap in de wereld van Unity Roleplay en laat je avonturen beginnen!</p>
+                <h1 class="text-3xl font-bold mb-4 text-black">Welkom bij Unity Roleplay!</h1>
+                <p class="mb-6 text-black">We zijn blij je te verwelkomen in onze unieke stad, waar jouw creativiteit en avonturen centraal staan. Of je nu een gewone burger wilt zijn, een grote crimineel wilt worden, of een wetshandhaver die de orde handhaaft, de keuze is aan jou. Unity Roleplay biedt talloze mogelijkheden en spannende avonturen.</p>
+                <p class="mb-6 text-black">Bij Unity Roleplay ben je nooit alleen. Neem deel aan evenementen, werk samen aan uitdagende avonturen en maak nieuwe vrienden terwijl je de stad verkent.</p>
+                <p class="mb-6 text-black">Er is altijd iets te doen! Of je nu houdt van actie of strategische uitdagingen, spannende klussen wachten op je! Elke beslissing die je maakt kan leiden tot nieuwe verhalen en onvergetelijke momenten, van adembenemende achtervolgingen tot diepgaande interacties met andere burgers.</p>
+                <p class="mb-6 text-black">We zijn blij je hier te hebben en kunnen niet wachten om samen met jou een geweldige tijd te beleven! Stap in de wereld van Unity Roleplay en laat je avonturen beginnen!</p>
             </div>
 
             <!-- Instructies om mee te doen -->
