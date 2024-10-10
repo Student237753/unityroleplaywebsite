@@ -51,9 +51,9 @@
 
     <!-- Strafbepaling -->
     <h2 class="text-2xl font-semibold mb-4 text-black">Strafbepaling</h2>
-    <p class="mb-4 text-black">De straffen zijn onderverdeeld in acht categorieÃ«n:</p>
+    <p class="mb-4 text-black">De straffen zijn onderverdeeld in acht categorieën:</p>
     <ul class="list-disc list-inside mb-4 text-black font-bold">
-        <li>Categorie 1: een waarschuwing + 100 uur taakstraf *(max 3 waarschuwingen in 1 maand, hierna volgt de automatisch oplegging cat. 2)*</li>
+        <li>Categorie 1: een waarschuwing + 100 uur taakstraf (max 3 waarschuwingen in 1 maand, hierna volgt de automatisch oplegging cat. 2)</li>
         <li>Categorie 2: een ban van 1 dag</li>
         <li>Categorie 3: een ban van 2 dagen</li>
         <li>Categorie 4: een ban van 3 dagen</li>
@@ -296,10 +296,10 @@
     </div>
 
 
-    <!-- Artikel 12 - Gedrag van Ambtenaren -->
+    <!-- Artikel 11 - Gedrag van Ambtenaren -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Artikel 12 - Gedrag van Ambtenaren</h3>
+            <h3 class="text-xl font-semibold">Artikel 11 - Gedrag van Ambtenaren</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
             <ol class="list-decimal ml-6 text-black mb-4">
@@ -314,10 +314,10 @@
         </div>
     </div>
 
-    <!-- Artikel 13 - Gedrag tegenover Overheidsmedewerkers -->
+    <!-- Artikel 12 - Gedrag tegenover Overheidsmedewerkers -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Artikel 13 - Gedrag tegenover Overheidsmedewerkers</h3>
+            <h3 class="text-xl font-semibold">Artikel 12 - Gedrag tegenover Overheidsmedewerkers</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
             <ol class="list-decimal ml-6 text-black mb-4">
@@ -338,10 +338,10 @@
         </div>
     </div>
 
-    <!-- Artikel 14 - Roleplay & Ledenaantal Criminele Organisaties -->
+    <!-- Artikel 13 - Roleplay & Ledenaantal Criminele Organisaties -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Artikel 14 - Roleplay & Ledenaantal Criminele Organisaties</h3>
+            <h3 class="text-xl font-semibold">Artikel 13 - Roleplay & Ledenaantal Criminele Organisaties</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
             <ol class="list-decimal ml-6 text-black mb-4">
@@ -358,174 +358,116 @@
         </div>
     </div>
 
-
-    <!-- Corruptie -->
+    <!-- Artikel 14 - Ontsnappen uit het cellencomplex -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Corruptie - 3 punten</h3>
+            <h3 class="text-xl font-semibold">Artikel 14 - Ontsnappen uit het cellencomplex</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Corruptie binnen het politiekorps is ten strengste verboden. Voorbeeld: je vertelt aan derden dat er een signalering openstaat</p>
+            <ol class="list-decimal ml-6 text-black mb-4">
+                <li>Ontsnappen is toegestaan, mits er een geldig roleplay-scenario aan is verbonden. Dit wordt beoordeeld door een stafflid.</li>
+                <li>Ontsnappen is verboden als afgesproken is om het scenario op een later tijdstip voort te zetten.</li>
+                <li>Tussen 01:30 en 10:00 mag er niet uit het cellencomplex worden gebroken.</li>
+                <li>Er moeten minimaal 10 politieagenten beschikbaar zijn, bij 6-10 agenten is ontsnappen verboden.</li>
+                <li>Overtredingen worden gestraft volgens de <strong>1e categorie.</strong></li>
+            </ol>
         </div>
     </div>
 
-    <!-- Vrienden Gijzelen -->
+    <!-- Artikel 15 - Witwassen, Winkel- en bankovervallen & overige criminaliteit -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Vrienden Gijzelen - 1 punt</h3>
+            <h3 class="text-xl font-semibold">Artikel 15 - Witwassen, Winkel- en bankovervallen & overige criminaliteit</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het is niet toegestaan om je vriend te gebruiken als gijzelaar voor een winkel-/bankoverval of een algemene gijzelingssituatie.</p>
+            <ol class="list-decimal ml-6 text-black mb-4">
+                <li>Overvallen van witwassers is toegestaan als gezichtsbedekking of beschermende kleding wordt gedragen, of als het kenteken overeenkomt met een recent deepweb-bericht.</li>
+                <li>Verdachte handelingen bij afleverpunten zijn ook een reden voor een overval.</li>
+                <li>Witwassen mag alleen in voertuigen van het depot of gelijkende modellen.</li>
+                <li>De overvaller moet bewijs kunnen overhandigen aan staffleden.</li>
+                <li>Campen bij witwaslocaties en het depot is verboden.</li>
+                <li>Gijzelaars mogen geen bekenden of vrienden zijn, maar moeten onbekenden zijn.</li>
+                <li>Vermijd vuurgevechten en onderhandel eerst met de politie.</li>
+                <li>Liquidaties moeten worden gemotiveerd en het slachtoffer moet de reden kennen voordat de liquidatie plaatsvindt.</li>
+                <li>Campen op niet-actieve drugs locaties is niet toegestaan.</li>
+                <li>Overtredingen worden bestraft volgens de <strong>1e categorie.</strong></li>
+            </ol>
         </div>
     </div>
 
-    <!-- Stemherkenning -->
+    <!-- Artikel 16 - Officiële gangregels -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Stemherkenning - 1 punt</h3>
+            <h3 class="text-xl font-semibold">Artikel 16 - Officiële gangregels</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het is niet toegestaan iemand te herkennen aan zijn of haar stem wanneer die persoon een andere stem opzet.</p>
+            <ol class="list-decimal ml-6 text-black mb-4">
+                <li>Nepmeldingen in de omgeving van ganghuizen met de intentie om criminelen uit te lokken, zijn verboden.</li>
+                <li>Het uitvoeren van andere illegale praktijken, zoals schieten, om rivaliserende groepen te benadelen, is verboden.</li>
+                <li>Voertuiginbeslagname moet met goede roleplay gebeuren en niet met de intentie om geld te verdienen.</li>
+                <li>Na twee weken zonder roleplay mag het voertuig weer gratis uit de garage worden gehaald.</li>
+                <li>Het confisqueren van items is toegestaan, mits er roleplay aan is verbonden. Overheidsobjecten mogen echter niet worden ingenomen.</li>
+                <li>Straffen worden door staff bepaald op basis van de ernst van de situatie.</li>
+            </ol>
         </div>
     </div>
 
-    <!-- Voicechanger -->
+    <!<!-- Artikel 17 - Jobhoppen -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Voicechanger - 1 punt</h3>
+            <h3 class="text-xl font-semibold">Artikel 17 - Jobhoppen</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het gebruik van een voicechanger is niet toegestaan (behalve voor DSI en Recherche).</p>
+            <ol class="list-decimal ml-6 text-black mb-4">
+                <li>(Ex-)leden van criminele organisaties en overheidsbanen moeten 72 uur wachten na ontslag voordat ze ergens anders aangenomen mogen worden.</li>
+                <li>Leidinggevenden moeten een document bijhouden met in- en uitdiensttreding van medewerkers.</li>
+                <li><strong>Straf Categorie:</strong> 1e categorie. Overtreders mogen 3 kalenderdagen hun beroep niet uitoefenen.</li>
+            </ol>
         </div>
     </div>
 
-    <!-- Copbaiten -->
+    <!-- Artikel 18 - Stemherkenning -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Copbaiten - 1 punten</h3>
+            <h3 class="text-xl font-semibold">Artikel 18 - Stemherkenning</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het uitdagen van politie zonder enige geldige reden is verboden. Voorbeeld: zomaar een achtervolging starten, zomaar aanrijden, driften, rondjes rijden, burnouts.</p>
+            <ol class="list-decimal ml-6 text-black mb-4">
+                <li>Het herkennen van een speler aan zijn/haar stem is toegestaan, tenzij je de speler niet kent.</li>
+                <li>Stemherkenning is verboden als de speler duidelijk zijn/haar stem vervormt.</li>
+                <li>Stemvervorming met externe software mag, maar het moet redelijk blijven.</li>
+                <li><strong>Straf Categorie:</strong> 1e categorie.</li>
+            </ol>
         </div>
     </div>
 
-    <!-- Ongepaste kleding -->
+    <!-- Artikel 19 - Omgaan met F6 -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Ongepaste kleding - 1 punten</h3>
+            <h3 class="text-xl font-semibold">Artikel 19 - Omgaan met F6</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het is niet toegestaan om kleding van hulpdiensten te dragen, of kleding dat niet naar toebehoren werkt.</p>
+            <ol class="list-decimal ml-6 text-black mb-4">
+                <li>Het plaatsen van een geboeide persoon in een voertuig zonder roleplay-handelingen via F6 is verboden.</li>
+                <li>Spelers moeten realistische stappen volgen, zoals het openen van deuren en het aangeven dat iemand in het voertuig wordt geplaatst.</li>
+                <li>Het uit een voertuig trekken moet ook gepaard gaan met realistische handelingen zoals het inslaan van ramen en het openen van de deur.</li>
+                <li><strong>Straf Categorie:</strong> 5e categorie. Leidinggevenden krijgen zwaardere straffen.</li>
+            </ol>
         </div>
     </div>
 
-    <!-- Niet luisteren naar- of liegen tegen staff -->
+    <!-- Artikel 20 - Loodsen -->
     <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
         <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Niet luisteren naar- of liegen tegen staff - 0, 6 punten</h3>
+            <h3 class="text-xl font-semibold">Artikel 20 - Loodsen</h3>
         </div>
         <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Je dient ten alle tijden de instructies van het staffteam op te volgen. Indien je dit niet doet kan hier een sanctie aan vast hangen.</p>
-        </div>
-    </div>
-
-    <!-- Event verstoren -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Event verstoren - 2 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het is niet toegestaan om een event te verstoren op welke manier dan ook.</p>
-        </div>
-    </div>
-
-    <!-- Money farming -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Money farming - 1 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het is niet toegestaan om alleen online te zijn om je salaris te innen, door bijvoorbeeld in dienst te staan zonder iets te doen.</p>
-        </div>
-    </div>
-
-    <!-- Scammen -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Scammen - 2 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het is niet toegestaan burgers te scammen bij het kopen/verkopen van een vuurwapen(blueprint) of huis. Tasers en steekwapens zijn wel toegestaan.</p>
-        </div>
-    </div>
-
-    <!-- Dood = dood -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Dood = dood - 2 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het is niet toegestaan om jezelf te laten reviven wanneer je neergestoken / geschoten bent door een wapen.</p>
-        </div>
-    </div>
-
-    <!-- Helicopter gebruik -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Helicopter gebruik - 2 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het landen op een onrealistische manier is niet toegestaan. Landen mag alleen op helipads of op grote open plekken buiten de stad.</p>
-        </div>
-    </div>
-
-    <!-- Wapen gebruik -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Wapen gebruik - 2 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het stashen van een wapen tijdens of vlak na (10 min) een scenario is niet toegestaan.</p>
-        </div>
-    </div>
-
-    <!-- Combat Storing -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Combat Storing - 2 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het is verboden om tijdens een rp scenario wat actief bezig is bijv. je auto weg te zetten in een garage of jezelf en/of het item waar het scenario mede om draait verstoppen in een locatie waar andere niet bij je kunnen.</p>
-        </div>
-    </div>
-
-    <!-- Aansluiten scenarios -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Aansluiten scenarios - 2 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Het is niet toegestaan mee te doen aan een scenario als je niet online was op het moment van de start. Was je als politie uit dienst maar wel online? Dan mag je wel meedoen.</p>
-        </div>
-    </div>
-
-    <!-- Kidnappen / Overvallen / Boeien -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Kidnappen / Overvallen / Boeien - 3 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Mensen overvallen & boeien mag alleen met een taser, steek- of vuurwapen. Het kidnappen/ontvoeren van mensen mag alleen met een steek- of vuurwapen. Het ontvoeren of overvallen van ambulanciers IN DIENST mag niet. Het is op geen enkele manier toegestaan om een vuurwapen/ vuurwapen blueprint te stelen van burgers, stashen bij anderen is op eigen risico.</p>
-        </div>
-    </div>
-
-    <!-- Agentovervallen -->
-    <div x-data="{ open: false }" class="mb-4 rule-background p-4 rounded-md">
-        <div @click="open = !open" class="cursor-pointer rule-header p-4 rounded-md text-white">
-            <h3 class="text-xl font-semibold">Agentovervallen - 2 punten</h3>
-        </div>
-        <div x-show="open" x-transition class="mt-2 p-4 bg-gray-100 rounded-md">
-            <p class="mb-4 text-black">Je dient minimaal 1 licht handvuurwapen te hebben om een agent te overvallen, meerdere agenten tegelijk overvallen is niet toegestaan. Ook dient er altijd face to face onderhandeld te worden met de politie (niet via de telefoon), HIERNA mogen pas spullen afgepakt worden van een agent. De onderhandelaar van de Politie mag niet vermoord worden. Het is niet toegestaan speciale eenheden met zware wapens te overvallen van de politie. (DSI, BE, KMar).</p>
+            <ol class="list-decimal ml-6 text-black mb-4">
+                <li>Misleiding of bedrog met betrekking tot loodsen is verboden.</li>
+                <li>Het verhuren van sleutels en verhandelen van aandelen in loodsen is toegestaan, maar afspraken moeten schriftelijk worden vastgelegd.</li>
+                <li>Bij geschillen beslist een staflid, en bewijsmateriaal moet worden overlegd door de benadeelde partij.</li>
+                <li><strong>Straf Categorie:</strong> 3e categorie. Bij bedragen boven 2 miljoen: <strong>5e categorie.</strong></li>
+            </ol>
         </div>
     </div>
 </div>

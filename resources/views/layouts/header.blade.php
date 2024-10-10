@@ -16,7 +16,7 @@
                 <a href="{{ route('regels') }}" class="header-button">Server Regels</a>
                 <a href="{{ route('contact') }}" class="header-button">Contact</a>
                 <a href="#" class="header-button">Doneren</a>
-                <a href="#" class="header-button">Over Ons</a>
+                <a href="https://discord.gg/RAAVsTpzKg" class="header-button">Join Discord!</a>
             </div>
         </div>
     </div>
