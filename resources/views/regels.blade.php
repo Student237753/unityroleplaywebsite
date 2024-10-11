@@ -6,6 +6,7 @@
     <title>Server Regels - Unity Roleplay</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.10.2/dist/cdn.min.js" defer></script>
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
         /* Gradient Background */
         .gradient-background {

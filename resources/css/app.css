@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Standaard scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* Breedte van de scrollbar */
+}
+
+/* De achtergrond van de gehele scrollbar */
+::-webkit-scrollbar-track {
+    background: white; /* Donkerdere blauw voor beter contrast */
+}
+
+/* De "duim" (het schuifbare deel) van de scrollbar */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(334deg, #9c6a83, #7a4fb6); /* Donkerder gradient voor betere zichtbaarheid */
+}
+
+/* Hover-effect op de scrollbar duim */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(334deg, #884d71, #6a4299); /* Iets donkerdere kleuren bij hover */
+}
+
+/* De hoek waar horizontale en verticale scrollbars elkaar kruisen */
+::-webkit-scrollbar-corner {
+    background: #4a6c8e; /* Zelfde kleur als de track */
+}
